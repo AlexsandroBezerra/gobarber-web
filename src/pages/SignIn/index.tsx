@@ -23,6 +23,8 @@ const SignIn: React.FC = () => {
   const formRef = useRef<FormHandles>(null)
   const auth = useContext(AuthContext)
 
+  console.log(auth.user)
+
   const handleSubmit = useCallback(
     async (data: SignInDataForm) => {
       try {
