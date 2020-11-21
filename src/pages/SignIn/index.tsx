@@ -1,4 +1,4 @@
-import React, { useCallback, useContext, useRef } from 'react'
+import React, { useCallback, useRef } from 'react'
 import { FiLogIn, FiMail, FiLock } from 'react-icons/fi'
 import { FormHandles } from '@unform/core'
 import { Form } from '@unform/web'
@@ -12,7 +12,7 @@ import Input from '../../components/Input'
 import Button from '../../components/Button'
 
 import { Background, Container, Content } from './styles'
-import { AuthContext } from '../../contexts/AuthContext'
+import { useAuth } from '../../contexts/AuthContext'
 
 interface SignInDataForm {
   email: string
@@ -21,9 +21,9 @@ interface SignInDataForm {
 
 const SignIn: React.FC = () => {
   const formRef = useRef<FormHandles>(null)
-  const auth = useContext(AuthContext)
+  const { signIn, user } = useAuth()
 
-  console.log(auth.user)
+  console.log(user)
 
   const handleSubmit = useCallback(
     async (data: SignInDataForm) => {
@@ -41,7 +41,7 @@ const SignIn: React.FC = () => {
           abortEarly: false
         })
 
-        await auth.signIn({
+        await signIn({
           email: data.email,
           password: data.password
         })
@@ -51,7 +51,7 @@ const SignIn: React.FC = () => {
         formRef.current?.setErrors(errors)
       }
     },
-    [auth]
+    [signIn]
   )
 
   return (
