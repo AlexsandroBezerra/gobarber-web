@@ -12,7 +12,7 @@ import Input from '../../components/Input'
 import Button from '../../components/Button'
 
 import { Background, Container, Content } from './styles'
-import { useAuth } from '../../contexts/AuthContext'
+import { useAuth } from '../../hooks/AuthContext'
 
 interface SignInDataForm {
   email: string
