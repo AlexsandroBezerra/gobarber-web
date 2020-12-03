@@ -1,11 +1,12 @@
-<h3 align="center">
-  Aplicação ReactJS para o project GoBarber
-</h3>
+<h1 align="center">
+	<img alt="GoStack" src=".github/assets/logo.svg" width="200px" />
+</h1>
 
-<p align="center">A melhor maneira de agendar seus serviços!</p>
+<h3 align="center">ReactJS Application for GoBarber project</h3>
+
+<p align="center">The best way to schedule your service!</p>
 
 
-## :construction: Área em construção :construction:
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/AlexsandroBezerra/gobarber-web?color=%23FF9000">
@@ -16,47 +17,54 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/AlexsandroBezerra/gobarber-web?color=%23FF9000">
 
-  <a href="https://github.com/AlexsandroBezerra/gobarber-web/commits/master">
+  <a href="https://github.com/AlexsandroBezerra/gobarber-web/commits/main">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/AlexsandroBezerra/gobarber-web?color=%23FF9000">
   </a>
 
   <img alt="GitHub" src="https://img.shields.io/github/license/AlexsandroBezerra/gobarber-web?color=%23FF9000">
 </p>
 
+
+![GoBarber-Layout](.github/assets/gobarber.png)
+
 <p align="center">
-  <a href="#about">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#started">Começando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#contribute">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#license">Licença</a>
+  <a href="#about">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#links">Useful links</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#license">License</a>
 </p>
 
 </br>
 
+## :construction: Construction zone :construction:
+
 <p id="about"></p>
 
-## 💇🏻‍♂️ Sobre o projeto
+## :information_desk_person: About the project
 
-Em breve...
+Soon
 
----
+<p id="links"></p>
 
-Para ver a **API Rest do GoBarber**, [clique aqui](https://github.com/AlexsandroBezerra/gobarber-backend).</br>
-To see the **Cliente mobile do GoBarber**, [clique aqui](https://github.com/AlexsandroBezerra/gobarber-mobile).
+### :link: Useful links
 
----
+To see the **GoBarber rest api**, [click here](https://github.com/AlexsandroBezerra/gobarber-backend) <br />
+To see the **GoBarber mobile client**, [click here](https://github.com/AlexsandroBezerra/gobarber-mobile)
+
 
 <p id="technologies"></p>
 
-## 🚀 Tecnologias
+## :rocket: Technologies
 
-Tecnologias usada no desenvolvimento desse client web:
+Technologies that I used to develop this web client:
 
 - [ReactJS](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [React Router DOM](https://reacttraining.com/react-router/)
 - [React Icons](https://react-icons.netlify.com/#/)
-- [UnForm](https://unform.dev/) [💜](https://rocketseat.com.br/)
+- [UnForm](https://unform.dev/)
 - [Yup](https://github.com/jquense/yup)
 - [Styled Components](https://styled-components.com/)
 - [Polished](https://github.com/styled-components/polished)
@@ -67,35 +75,40 @@ Tecnologias usada no desenvolvimento desse client web:
 
 <p id="started"></p>
 
-## 💻 Começando
+## :computer: Getting started
 
-### Requisitos
+### Requirements
 
-- A [API](https://github.com/AlexsandroBezerra/gobarber-backend) do GoBarber precisa está executando na sua máquina.
+- Have this application's [API](https://github.com/AlexsandroBezerra/gobarber-backend) running
 
-**Faça um clone do repositório e acesse a pasta**
+**Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/AlexsandroBezerra/gobarber-web.git && cd gobarber-web
+git clone https://github.com/AlexsandroBezerra/gobarber-web.git 
+
+cd gobarber-web
 ```
 
-**Siga os passos abaixo**
+**Follow the steps below**
 
 ```bash
-# Instale as dependências
+# Install the dependencies
 $ yarn
 
-# Tenha certeza 'src/services/api.ts' tem o IP correto da sua API
+# Be sure the file 'src/services/api.ts' have the IP to your API
 
-# Inicie a aplicação
+# Start the client
 $ yarn start
 ```
 
 <p id="contribute"></p>
 
-## 🤔 Como contribuir
+## :thinking: How to contribute
 
 **Faça um fork desse repositório**
+
+
+**Make a fork of this repository**
 
 ```bash
 # Fork using GitHub official command line
@@ -104,30 +117,31 @@ $ yarn start
 $ gh repo fork AlexsandroBezerra/gobarber-web
 ```
 
-**Siga os passos abaixo**
+**Follow the steps below**
 
 ```bash
-# Clone seu repositório
+# Clone your fork
 $ git clone your-fork-url && cd gobarber-web
 
-# Crie uma branch com a sua nova feature
+# Create a branch with your feature
 $ git checkout -b my-feature
 
-# Faça um commit com as suas mudanças
+# Make the commit with your changes
 $ git commit -m 'feat: My new feature'
 
-# Envie o código para sua branch remota
+# Send the code to your remote branch
 $ git push origin my-feature
 ```
 
-Depois do Pull Request ser aceito, você pode excluir a sua branch.
+After your pull request is merged, you can delete your branch
+
 
 <p id="license"></p>
 
-## 📝 Licença
+## :pencil: License
 
-Esse projeto está sobre licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-Feito com 💜 por Alexsandro G Bezerra 👋 [Veja meu LikedIn](https://www.linkedin.com/in/alexsandrobezerra/)
+Made with :purple_heart: by Alexsandro G Bezerra :wave: &nbsp;[See my Linkedin](https://www.linkedin.com/in/alexsandrobezerra)
