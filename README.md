@@ -105,9 +105,6 @@ $ yarn start
 
 ## :thinking: How to contribute
 
-**Faça um fork desse repositório**
-
-
 **Make a fork of this repository**
 
 ```bash
