@@ -109,7 +109,7 @@ const Profile: React.FC = () => {
         })
       }
     },
-    [history, addToast]
+    [history, addToast, updateUser]
   )
 
   const handleAvatarChange = useCallback(
@@ -129,7 +129,7 @@ const Profile: React.FC = () => {
         })
       }
     },
-    [addToast]
+    [addToast, updateUser]
   )
 
   return (
